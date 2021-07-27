@@ -1,4 +1,4 @@
-// console.log(window.innerWidth); 
+console.log(window.innerWidth); 
 /* SKILLS page script Started */
 var i = 0;
 function move() {

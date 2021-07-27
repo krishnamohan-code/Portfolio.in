@@ -81,7 +81,7 @@ h1 span{
     .container{
         display: block;
         width: 95%;
-        border: 0;
+        /* border: 0; */
     }
     .container-image{
         width: 94%;
@@ -101,7 +101,7 @@ h1 span{
 }
 @media only screen and (max-width: 509px){
     .container-text h1{
-        margin: 0 0 0 2%;
+        margin: 0 0 0 1%;
          font-size: 130%;
     }
     .container{
@@ -110,5 +110,9 @@ h1 span{
     .container-text h1{
         margin: -6% 0 0 0;
     }
+    /* .container-text{
+        width: 100%;
+        font-size: 100%;
+    } */
 }
 

@@ -79,7 +79,7 @@
       border-bottom-right-radius: 1rem;
       color: whitesmoke;
     }
-    @media only screen and (max-width:790px){
+    /* @media only screen and (max-width:790px){
       .skill-container{
         width: 100%;
       }
@@ -92,14 +92,13 @@
       }
       .skill-image-2{
         display: block;
-        /* margin: 50px 0 0 0; */
         width: 100%;
       }
       .myProgress{
         width: 80%;
       }
-    }
-    @media only screen and (max-width:450px){
+    } */
+    @media only screen and (max-width:900px ){
          
         .skill-container{
             width: 100%;
