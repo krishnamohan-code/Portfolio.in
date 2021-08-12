@@ -1,4 +1,10 @@
 console.log(window.innerWidth); 
+
+function display(){
+   
+  
+}
+
 /* SKILLS page script Started */
 var i = 0;
 function move() {
@@ -6,6 +12,7 @@ function move() {
     i = 1;
     // var element = document.getElementsByClassName("myBar");
     var java = document.getElementsByClassName("myBar")[0];
+    console.log(java);
     var python = document.getElementsByClassName("myBar")[1];
     var c = document.getElementsByClassName("myBar")[2];
     var html = document.getElementsByClassName("myBar")[3];
@@ -27,6 +34,7 @@ function move() {
         width++;
 
         html.style.width = width-10 + "%";
+        // console.log(html.style.width);
         html.innerHTML = width-10 + "%";
 
         css.style.width = width-10 + "%";

@@ -6,6 +6,7 @@
 }
 body{
     background: blanchedalmond;
+    
 }
 nav{
     background: rgb(230, 227, 61);
@@ -51,7 +52,7 @@ nav a {
 } */
 /************ Responsive nav bar ************* */
 
-@media only screen and (max-width: 450px){
+@media only screen and (max-width: 500px){
     nav a{
        display: none;
     }
