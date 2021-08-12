@@ -11,21 +11,22 @@
     <link rel="stylesheet" href="./css/nav-bar.css">
    
     <link rel="icon" href="./assets/favicon-1.png">
-    <script src="index.js"></script>
-    <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script>
+      <script src="./javascript/lottie-player.js"></script>
+    <!-- <script src="https://unpkg.com/@lottiefiles/lottie-player@latest/dist/lottie-player.js"></script> -->
 </head>
 <body>
      
+  <section>
       <nav>
         <a href="index.html" class="active">Home</a>
         <a href="skills.html">Skills</a>
         <a href="education.html">Education</a>
         <!-- <a href="">Projects</a> -->
-        <a href="">Contact</a>
-        <a href="" class="logo">KrishnaMohan Pyneni</a>
+        <a href="contact.html">Contact</a>
+        <a href="index.html" class="logo">KrishnaMohan Pyneni</a>
         
         <!-- <a href="">Blog</a> -->
-        <div class="burger" onclick="display()">
+        <div class="burger" click="display()">
             <div id="line1"></div>
             <div id="line2"></div>
             <div id="line3"></div>
@@ -33,12 +34,14 @@
       </nav>
         <div class="container">
           <!-- <img src="./assets/home.png" alt="Internet Error" class="container-image"> -->
-          
+          <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"  
+             background="transparent"  speed="1"  style="width: 100%;"  loop autoplay >
+          </lottie-player> -->
           <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"  
-             background="transparent"  speed="1"  style="width: 90%;"  loop autoplay class="container-image">
-          </lottie-player>
+             background="transparent"  speed="1"  style="width: 100%;"  loop autoplay > 
+            </lottie-player>
           ✦
-           <hr>
+           <!-- <hr> -->
             <div class="container-text">
              
               <h1>Hi I'am <span> KrishnaMohan  </span> 👋   </h1>
@@ -62,6 +65,9 @@
              <!-- ✨  -->
              <!-- <img src="./assets/badge.png" alt=""> -->
             </div>
+            <p id="text" style="font-size: xx-large;"></p>
         </div>
+      </section>
 </body>
+<script src="./javascript/nav.js"></script>
 </html>
