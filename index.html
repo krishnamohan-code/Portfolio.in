@@ -16,40 +16,41 @@
 </head>
 <body>
      
-  <section>
-      <nav>
-        <a href="index.html" class="active">Home</a>
-        <a href="skills.html">Skills</a>
-        <a href="education.html">Education</a>
-        <!-- <a href="">Projects</a> -->
-        <a href="contact.html">Contact</a>
-        <a href="index.html" class="logo">KrishnaMohan Pyneni</a>
-        
-        <!-- <a href="">Blog</a> -->
-        <div class="burger" click="display()">
-            <div id="line1"></div>
-            <div id="line2"></div>
-            <div id="line3"></div>
-        </div>
+
+    <header class="header">
+      <nav class="navbar">
+          <a href="index.html" class="nav-logo">KrishnaMohan Pyneni</a>
+          <ul class="nav-menu">
+              <li class="nav-item">
+                  <a href="index.html" class="nav-link active">Home</a>
+              </li>
+              <li class="nav-item">
+                  <a href="skills.html" class="nav-link">Skills</a>
+              </li>
+              <li class="nav-item">
+                  <a href="education.html" class="nav-link">Education</a>
+              </li>
+              <li class="nav-item">
+                  <a href="contact.html" class="nav-link">Contact</a>
+              </li>
+            </ul>
+          <div class="hamburger">
+              <span class="bar"></span>
+              <span class="bar"></span>
+              <span class="bar"></span>
+          </div>
       </nav>
+    </header>
+    ✨
         <div class="container">
-          <!-- <img src="./assets/home.png" alt="Internet Error" class="container-image"> -->
-          <!-- <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"  
-             background="transparent"  speed="1"  style="width: 100%;"  loop autoplay >
-          </lottie-player> -->
           <lottie-player src="https://assets8.lottiefiles.com/packages/lf20_sSF6EG.json"  
-             background="transparent"  speed="1"  style="width: 100%;"  loop autoplay > 
+             background="transparent"  speed="1"  style="width: 100%;"  loop autoplay class="lottie-player" > 
             </lottie-player>
           ✦
            <!-- <hr> -->
             <div class="container-text">
              
-              <h1>Hi I'am <span> KrishnaMohan  </span> 👋   </h1>
-              <!-- <p> <span>&#x261E;</span> Strong in design and integration with intuitive problem-solving skills.
-              <br><span>&#x261E;</span> Passionate about implementing and launching new projects.
-              <br><span>&#x261E;</span> Ability to translate business requirements into technical solutions. 
-              <br><span>&#x261E;</span> Looking to start the career as an entry-level software engineer with a reputed firm driven by technology.
-             </p> -->
+              <h1>Hi I'am <span>KrishnaMohan</span>👋</h1>
              <p><span>&#x261E;</span>Strong in design and integration with intuitive problem-solving skills.</p>
              <p><span>&#x261E;</span> Passionate about implementing and launching new projects.</p>
              <p><span>&#x261E;</span> Ability to translate business requirements into technical solutions.</p>
@@ -59,7 +60,6 @@
              <a href="https://github.com/krishnamohan-code" target="__blank"><img src="./assets/github.png" alt="GitHub"></a>
              <a href="https://www.codewars.com/users/krishnamohan-code" target="__blank"><img src="./assets/codewars.png" alt="Code Wars"></a>
              <a href="https://www.hackerrank.com/krishnamohan_py1" target="__blank"><img src="./assets/hackerrank.png"  alt="Hacker Ranker"></a>
-             <!-- <a href=""><img src="hackerrank.png"  alt="Hacker Ranker"></a> -->
             </div>
             <img src="./assets/stars.png" alt="stars">
              <!-- ✨  -->
@@ -67,7 +67,7 @@
             </div>
             <p id="text" style="font-size: xx-large;"></p>
         </div>
-      </section>
+     
 </body>
 <script src="./javascript/nav.js"></script>
 </html>

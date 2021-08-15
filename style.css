@@ -1,16 +1,11 @@
-/* @import url('https://fonts.googleapis.com/css2?family=Pridi&display=swap'); */
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Merienda+One&family=Rowdies:wght@300&family=Rye&display=swap');
-
-
-/* ************************************ */
-
 .container,.container-image{
     border: 3px solid black;
     border-radius: 3em;
 }
 .container{
     display: flex;
-    margin: 2% 0 0 2%;
+    margin: 1% 0 0 2%;
      width: 95%;
 }
 hr{
@@ -50,8 +45,6 @@ hr{
     margin: 2% 0 0 0;
 }
 h1 span{
-    /* font-size: small; */
-    /* font-weight: 100; */
     position: relative;
     animation-name: moving-text;
     animation-duration: 2s;
@@ -74,21 +67,15 @@ h1 span{
 .social a{
     margin: 10px;
 }
-
-
-
 @media only screen and (max-width: 965px){
 
     .container{
         display: block;
         width: 95%;
-        /* border: 0; */
     }
     .container-image{
         width: 100%;
-        /* margin: 3%  2% 3% 3%; */
     }
-   
     hr{
         display: none;
     }
@@ -111,9 +98,5 @@ h1 span{
     .container-text h1{
         margin: -6% 0 0 0;
     }
-    /* .container-text{
-        width: 100%;
-        font-size: 100%;
-    } */
 }
 
