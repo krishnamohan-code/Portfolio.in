@@ -1,69 +1,107 @@
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Merienda+One&family=Rowdies:wght@300&family=Rye&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
-    /* box-sizing: border-box; */
+    font-family: 'Rowdies',cursive;
 }
 body{
     background: blanchedalmond;
 }
-nav{
+li {
+    list-style: none;
+}
+a {
+    text-decoration: none;
+}
+.header{
     background: rgb(230, 227, 61);
-    height: 7vh;
-     margin: 2.5% 0 0 2.5%;
-    border:2px solid black;
     border-radius: 1.3rem;
+    border:2px solid black;
     width: 95%;
-     display: flex;
-     justify-content: space-around;
-    align-items: center;
-    font-family: 'Rowdies',cursive;
+    margin: 2% 0 0 2%;
     font-size: x-large;
 }
-nav a {
-    /* margin: 0 0 0 8%; */
-  text-decoration: none;
-  color: black;
+.navbar {
+    padding: 0.5rem 0rem;
 }
-/**************** Logo************ */
-.logo,.submenu{
+.hamburger {
     display: none;
 }
-/************* Humburger *******************/
-.burger div
-{
-  background-color: black;
-  height: 5px;
-  width: 35px;
-  margin: 3px;
-  border-radius: 1em;
-  transition: all 0.5s ease;
+.bar {
+    display: block;
+    width: 30px;
+    height: 4px;
+    margin: 5px auto;
+    -webkit-transition: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
+    background-color: #101010;
 }
-.burger{
-    margin-left: 7%;
-    display: none;
+.nav-menu {
+    display: flex;
+    justify-content: space-around;
 }
-.active,nav a:hover{
-    color:#625ac7 ;
+.nav-link{
+    font-size: 1.6rem;
+    color: black;
 }
-/* nav a:hover{
+.nav-link:hover,.active{
     color: #625ac7;
-} */
-/************ Responsive nav bar ************* */
+}
+.nav-logo {
+    font-size: 1rem;
+    display: none;
+    color: #101010;
+}
+@media only screen and (max-width: 768px) {
+    .navbar{
+        display: flex;
+        justify-content: space-around;
+    }
+    .nav-menu {
+        position: absolute;
+        left: -100%;
+        top: 3.7rem;
+        flex-direction: column;
+        background: rgb(230, 227, 61);
+        width: 100%;
+        border-radius: 10px;
+        text-align: center;
+        transition: 0.3s;
+        box-shadow: 0 10px 27px rgba(0, 0, 0, 0.05);
+        z-index: 1;
+    }
+    .nav-logo{
+        display: block;
+        font-size: 100%;
+    }
+    
+    .nav-menu.active {
+        left: 0;
+    }
 
-@media only screen and (max-width: 500px){
-    nav a{
-       display: none;
+    .nav-item {
+        margin: 2.5rem 0;
     }
-    .burger{
+
+    .hamburger {
         display: block;
+        cursor: pointer;
+        position: relative;
+        right: 0;
     }
-    .logo{
-        display: block;
-        margin: 0 -10px 0px 10%;
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
     }
-    .burger div :hover{
-      cursor: pointer;
+
+    .hamburger.active .bar:nth-child(1) {
+        -webkit-transform: translateY(8px) rotate(45deg);
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        -webkit-transform: translateY(-8px) rotate(-45deg);
+        transform: translateY(-8px) rotate(-45deg);
     }
 }
