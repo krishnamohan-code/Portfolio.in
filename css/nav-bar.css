@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css2?family=Emilys+Candy&family=Merienda+One&family=Rowdies:wght@300&family=Rye&display=swap');
-
+@import url('https://fonts.googleapis.com/css2?family=Niconne&display=swap');
 * {
     margin: 0;
     padding: 0;
@@ -52,6 +52,11 @@ a {
     font-size: 1rem;
     display: none;
     color: #101010;
+}
+footer{
+text-align: center;
+font-family: 'Niconne', cursive;
+font-size: x-large;
 }
 @media only screen and (max-width: 768px) {
     .navbar{
