@@ -1,0 +1,9 @@
+lottie-player{
+    width: 62%;
+}
+@media only screen and (max-width: 965px){
+    lottie-player{
+        display: block;
+        width: 100%;
+    }
+}

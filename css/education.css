@@ -1,9 +1,33 @@
 lottie-player{
     width: 62%;
 }
+.container{
+    display: flex;
+}
+.sub-container{
+    margin: 5% 0 0 -15%;
+}
+.grid1,.grid2,.grid3,.grid4{
+    background-color: #302b70;
+    color: whitesmoke;
+    margin: 1% 0 0 0;
+    padding: 1rem;
+    border-radius: 1rem;
+}
+.grid1 h1,.grid2 h1,.grid3 h1,.grid4 h1,p{
+    text-align: center;
+}
 @media only screen and (max-width: 965px){
     lottie-player{
         display: block;
         width: 100%;
     }
+    .container{
+        display: block;
+    }
+    .sub-container{
+        margin: 0;
+    }
 }
+
+
