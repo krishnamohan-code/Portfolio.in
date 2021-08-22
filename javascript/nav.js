@@ -9,8 +9,6 @@ navLink.forEach(n => n.addEventListener("click", closeMenu));
 function mobileMenu() {
     hamburger.classList.toggle("active");
     navMenu.classList.toggle("active");
-   
-    
 }
 
 function closeMenu() {
