@@ -15,6 +15,7 @@ a {
     text-decoration: none;
 }
 .header{
+    /* position: fixed; */
     background: rgb(230, 227, 61);
     border-radius: 1.3rem;
     border:2px solid black;
